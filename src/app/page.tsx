@@ -1,9 +1,9 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
-  );
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+
+export default async function Home() {
+  const htmlPath = path.join(process.cwd(), "src/content/palmer-home.html");
+  const palmerHome = await readFile(htmlPath, "utf8");
+
+  return <main dangerouslySetInnerHTML={{ __html: palmerHome }} />;
 }

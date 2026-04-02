@@ -1,0 +1,25 @@
+
+> ai-website-clone-template@0.3.1 predev
+> node scripts/sanitize-html.js
+
+sanitized src\content\palmer-home.html | removed badges: 0 | rewritten links: 0 | normalized top links: 4
+
+> ai-website-clone-template@0.3.1 dev
+> next dev --port 3005
+
+▲ Next.js 16.2.1 (Turbopack)
+- Local:         http://localhost:3005
+- Network:       http://192.168.0.124:3005
+✓ Ready in 2.1s
+Creating turbopack project {
+  dir: 'C:\\Users\\USER\\Documents\\dev\\my-portfolio',
+  testMode: true
+}
+
+ GET /admin 200 in 4.9s (next.js: 4.0s, application-code: 865ms)
+ GET /admin/projects/new 307 in 1058ms (next.js: 820ms, application-code: 238ms)
+ GET /admin/projects/project-f6a10c31-7c4b-4feb-9376-7fc721305791 200 in 1642ms (next.js: 1415ms, application-code: 227ms)
+ PATCH /api/admin/projects/project-f6a10c31-7c4b-4feb-9376-7fc721305791 200 in 2.1s (next.js: 2.0s, application-code: 55ms)
+ DELETE /api/admin/projects/project-f6a10c31-7c4b-4feb-9376-7fc721305791 200 in 32ms (next.js: 14ms, application-code: 18ms)
+✓ Compiled in 95ms
+✓ Compiled in 95ms

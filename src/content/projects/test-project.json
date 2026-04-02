@@ -1,0 +1,39 @@
+{
+  "slug": "test-project",
+  "title": "Test Project",
+  "date": "2026-04-02",
+  "category": "Web Development",
+  "thumbnail": "/images/projects/test-project/og-image.png",
+  "isDraft": false,
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Building the portfolio CMS foundation",
+      "subtitle": "A modular content model for case studies powered by JSON and Zod.",
+      "tools": [
+        "Next.js",
+        "Zod",
+        "TypeScript"
+      ],
+      "coverImage": "/og-image.png"
+    },
+    {
+      "type": "text",
+      "content": "This is a markdown-capable text block placeholder. In the next phase we can swap this for a real markdown renderer."
+    },
+    {
+      "type": "side-by-side",
+      "layout": "image-left",
+      "image": "/og-image.png",
+      "text": "This block verifies discriminated-union rendering for paired media and narrative content."
+    },
+    {
+      "type": "gallery",
+      "images": [
+        "/og-image.png",
+        "/apple-touch-icon.png",
+        "/icon-192.png"
+      ]
+    }
+  ]
+}
